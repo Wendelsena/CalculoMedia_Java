@@ -18,8 +18,10 @@ public class CalculadoraMedia {
         }
 
         double media = soma / quantidadeNumeros;
+        
         System.out.println("A média dos números é: " + media);
 
+        
         scanner.close();
     }
 }
